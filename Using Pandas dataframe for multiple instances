@@ -1,0 +1,3 @@
+Using pandas dataframe to find and treat null values in dataframe
+train.isnull().sum()
+train[train.Embarked.isnull()] 
