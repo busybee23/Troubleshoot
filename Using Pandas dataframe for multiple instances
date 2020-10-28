@@ -4,3 +4,6 @@ train[train.Embarked.isnull()]
 
 To print a particular column in a dataframe using pandas 
 df.iloc[[row index]]
+
+To comment any blocks of code in mostly all editors and language use 
+ctrl + / lines are selected 
