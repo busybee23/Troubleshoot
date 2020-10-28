@@ -1,3 +1,6 @@
 Using pandas dataframe to find and treat null values in dataframe
 train.isnull().sum()
 train[train.Embarked.isnull()] 
+
+To print a particular column in a dataframe using pandas 
+df.iloc[[row index]]
