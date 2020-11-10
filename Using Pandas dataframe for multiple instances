@@ -1,9 +1,12 @@
 Using pandas dataframe to find and treat null values in dataframe
-train.isnull().sum()
-train[train.Embarked.isnull()] 
+train.isnull().sum() #gives you the sum of all null values into a row when used with isnull()
+Example : train[train.Embarked.isnull()] 
+          train.isnull().sum()
 
 To print a particular column in a dataframe using pandas 
 df.iloc[[row index]]
 
 To comment any blocks of code in mostly all editors and language use 
 ctrl + / lines are selected 
+
+Using pandas function to print all rows while using isnull().sum() function : https://youtu.be/SXwYy5YDHII
