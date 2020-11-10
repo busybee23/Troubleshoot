@@ -10,3 +10,7 @@ To comment any blocks of code in mostly all editors and language use
 ctrl + / lines are selected 
 
 Using pandas function to print all rows while using isnull().sum() function : https://youtu.be/SXwYy5YDHII
+
+
+For extracting features of your choice :
+features_with_na = [cheese for cheese in dataset.columns if dataset[cheese].isnul().sum()>1] #this pulls out all columns with even a single null value 
