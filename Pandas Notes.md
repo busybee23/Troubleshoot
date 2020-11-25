@@ -1,5 +1,5 @@
 ### Using pandas dataframe to find and treat null values in dataframe
-train.isnull().sum() #gives you the sum of all null values into a row when used with isnull() <br>
+`train.isnull().sum()` #gives you the sum of all null values into a row when used with isnull() <br>
 `train[train.Embarked.isnull()]`<br>
 `train.isnull().sum()`
 <br> 
@@ -14,7 +14,7 @@ train.isnull().sum() #gives you the sum of all null values into a row when used 
 > https://youtu.be/SXwYy5YDHII 
 
 ### For extracting features of your choice :
-`features_with_na = [cheese for cheese in dataset.columns if dataset[cheese].isnul().sum()>1]` #this pulls out all columns with even a single null value 
+`features_with_na = [cheese for cheese in dataset.columns if dataset[cheese].isnul().sum()>1]` <br> #this pulls out all columns with even a single null value 
 
 For dropping columns :
 `dataset.drop(['Column Name'], axis=1, inplace=True)` #here axis means columns or row if axis is 0 then it will drop the row with respective number otherwise column, inplace is replacing it within real dataset
