@@ -20,5 +20,6 @@ For dropping columns :
 `dataset.drop(['Column Name'], axis=1, inplace=True)` #here axis means columns or row if axis is 0 then it will drop the row with respective number otherwise column, inplace is replacing it within real dataset
 
 ### To find out count of categorical Data in a column :
+`print(dataset["Column Name"].unique())`
 `dataset["Column Name"].value_counts()`
 > https://www.youtube.com/watch?v=gMhDdOwApgs&feature=youtu.be
