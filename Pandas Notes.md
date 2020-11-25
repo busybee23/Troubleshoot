@@ -17,7 +17,7 @@
 `features_with_na = [cheese for cheese in dataset.columns if dataset[cheese].isnul().sum()>1]` <br> #this pulls out all columns with even a single null value 
 
 For dropping columns :
-`dataset.drop(['Column Name'], axis=1, inplace=True)` #here axis means columns or row if axis is 0 then it will drop the row with respective number otherwise column, inplace is replacing it within real dataset
+`dataset.drop(['Column Name'], axis=1, inplace=True)`<br> #here axis means columns or row if axis is 0 then it will drop the row with respective number otherwise column, inplace is replacing it within real dataset
 
 ### To find out count of categorical Data in a column :
 `print(dataset["Column Name"].unique())`
